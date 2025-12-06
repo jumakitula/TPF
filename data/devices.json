@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dev1",
+    "name": "Portable TENS Unit",
+    "price": "350000",
+    "priceDisplay": "Tsh 350,000",
+    "desc": "Portable electrotherapy device for pain management.",
+    "image": "img/PortableTensUnit.jpeg"
+  },
+  {
+    "id": "dev2",
+    "name": "Therapeutic Ultrasound",
+    "price": "1200000",
+    "priceDisplay": "Tsh 1,200,000",
+    "desc": "Clinic-grade ultrasound therapy for soft tissue healing.",
+    "image": "img/Therapeutic Ultrasound.jpeg"
+  },
+  {
+    "id": "dev3",
+    "name": "Portable Exercise Bike",
+    "price": "550000",
+    "priceDisplay": "Tsh 550,000",
+    "desc": "Compact bike for conditioning and endurance training.",
+    "image": "img/PortableExerciseBike.jpeg"
+  },
+  {
+    "id": "dev4",
+    "name": "Balance & Rehab Trainer",
+    "price": "780000",
+    "priceDisplay": "Tsh 780,000",
+    "desc": "Multi-purpose balance trainer for proprioception and gait retraining.",
+    "image": "img/Balance & Rehab Trainer.jpeg"
+  }
+]

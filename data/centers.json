@@ -1,0 +1,20 @@
+[
+  {
+    "id": "center1",
+    "name": "Kisutu Police Clinic",
+    "location": "Kisutu, Dar es Salaam",
+    "services": ["Outpatient Rehab","Return-to-Duty Assessments","Electrotherapy","Occupational Health"]
+  },
+  {
+    "id": "center2",
+    "name": "Mwanza Outreach Clinic",
+    "location": "Mwanza Regional Office",
+    "services": ["Musculoskeletal Rehab","Community Outreach","Mobile Assessment Unit"]
+  },
+  {
+    "id": "center3",
+    "name": "Arusha Regional Clinic",
+    "location": "Arusha",
+    "services": ["Sports Injury Care","Fitness Assessments","Ergonomics"]
+  }
+]

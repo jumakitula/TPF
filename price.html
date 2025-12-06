@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tanzania Police Force - Physiotherapy Programs</title>
+    <title>Tanzania Police Force - Physical Medicine and Rehabilitation Programs</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -41,7 +41,7 @@
                     <div class="d-inline-flex align-items-center">
                         <a class="text-decoration-none text-body pe-3" href="#!"><i class="bi bi-telephone me-2"></i>+255 22 123 4567</a>
                         <span class="text-body">|</span>
-                        <a class="text-decoration-none text-body px-3" href="mailto:physiotherapy@police.go.tz"><i class="bi bi-envelope me-2"></i>physiotherapy@police.go.tz</a>
+                        <a class="text-decoration-none text-body px-3" href="mailto:pmr@police.go.tz"><i class="bi bi-envelope me-2"></i>pmr@police.go.tz</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-end">
@@ -75,7 +75,7 @@
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand d-flex align-items-center">
                     <img src="img/tpf-emblem.png" onerror="this.onerror=null;this.src='img/tpf-emblem.svg'" alt="TPF Emblem" style="height:40px;margin-right:10px;">
-                    <h1 class="m-0 text-uppercase text-primary" style="font-size:20px;">TPF Physiotherapy</h1>
+                    <h1 class="m-0 text-uppercase text-primary" style="font-size:20px;">TPF Physical medicine and rehabilitation</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -90,6 +90,9 @@
                         <a href="blog.html" class="nav-item nav-link">News & Updates</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-outline-primary ms-3" id="cartBtn" data-bs-toggle="modal" data-bs-target="#cartModal" aria-label="View devices for sale"><i class="fa fa-shopping-cart"></i></button>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -101,7 +104,7 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Physiotherapy Programs</h5>
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Physical Medicine and Rehabilitation Programs</h5>
                 <h1 class="display-4">Rehabilitation & Return-to-Duty Packages</h1>
             </div>
             <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
@@ -190,6 +193,74 @@
     </div>
     <!-- Programs End -->
 
+    <!-- Devices & Equipment Start -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Devices & Equipment</h5>
+                <h1 class="display-4">Equipment Available For Purchase</h1>
+                <p class="lead">Approved devices and rehabilitation equipment available to units and clinics. Prices shown are indicative; contact procurement for bulk orders.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="bg-white rounded text-center p-4 h-100">
+                        <img class="img-fluid rounded mb-3" src="img/PortableTensUnit.jpeg" alt="Therapeutic TENS Unit">
+                        <h5 class="text-primary">Portable TENS Unit</h5>
+                        <p class="small">Portable electrotherapy device for pain management.</p>
+                        <p class="h4 text-dark">Tsh 350,000</p>
+                        <a href="contact.html" class="btn btn-sm btn-primary">Enquire / Order</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="bg-white rounded text-center p-4 h-100">
+                        <img class="img-fluid rounded mb-3" src="img/Therapeutic Ultrasound.jpeg" alt="Ultrasound Therapy">
+                        <h5 class="text-primary">Therapeutic Ultrasound</h5>
+                        <p class="small">Clinic-grade ultrasound therapy for soft tissue healing.</p>
+                        <p class="h4 text-dark">Tsh 1,200,000</p>
+                        <a href="contact.html" class="btn btn-sm btn-primary">Enquire / Order</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="bg-white rounded text-center p-4 h-100">
+                        <img class="img-fluid rounded mb-3" src="img/PortableExerciseBike.jpeg" alt="Portable Exercise Bike">
+                        <h5 class="text-primary">Portable Exercise Bike</h5>
+                        <p class="small">Compact bike for conditioning and endurance training.</p>
+                        <p class="h4 text-dark">Tsh 550,000</p>
+                        <a href="contact.html" class="btn btn-sm btn-primary">Enquire / Order</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="bg-white rounded text-center p-4 h-100">
+                        <img class="img-fluid rounded mb-3" src="img/Balance & Rehab Trainer.jpeg" alt="Rehab Balance Trainer">
+                        <h5 class="text-primary">Balance & Rehab Trainer</h5>
+                        <p class="small">Multi-purpose balance trainer for proprioception and gait retraining.</p>
+                        <p class="h4 text-dark">Tsh 780,000</p>
+                        <a href="contact.html" class="btn btn-sm btn-primary">Enquire / Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Devices & Equipment End -->
+
+        <!-- Cart Modal -->
+        <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Devices & Equipment For Sale</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="cart-items" class="row g-3"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     <!-- Appointment Start -->
     <div class="container-fluid bg-primary my-5 py-5">
@@ -198,9 +269,9 @@
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="mb-4">
                         <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h5>
-                        <h1 class="display-4">Book A Physiotherapy Consultation</h1>
+                        <h1 class="display-4">Book A Physical medicine and rehabilitation Consultation</h1>
                     </div>
-                    <p class="text-white mb-5">Timely, evidence-based physiotherapy services for members of the Tanzania Police Force. Book an assessment, rehabilitation program, or fitness-for-duty evaluation with our team of specialist physiotherapists.</p>
+                    <p class="text-white mb-5">Timely, evidence-based Physical medicine and rehabilitation services for members of the Tanzania Police Force. Book an assessment, rehabilitation program, or fitness-for-duty evaluation with our team of specialist physiotherapists.</p>
                     <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="#contact">Contact Us</a>
                     <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="#">Learn More</a>
                 </div>
@@ -350,9 +421,9 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
                         Get In Touch</h4>
-                    <p class="mb-4">Tanzania Police Force Physiotherapy Department — specialist rehabilitation services for police personnel.</p>
+                    <p class="mb-4">Tanzania Police Force Physical medicine and rehabilitation Department — specialist rehabilitation services for police personnel.</p>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Police Headquarters, Dar es Salaam</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>physiotherapy@police.go.tz</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>pmr@police.go.tz</p>
                     <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+255 22 123 4567</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -407,11 +478,11 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Tanzania Police Force - Physiotherapy</a>. All Rights Reserved.
+                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Tanzania Police Force - Physical medicine and rehabilitation</a>. All Rights Reserved.
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Template by <a class="text-primary" href="https://htmlcodex.com" target="_blank">HTML Codex</a>. Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>.</p>
+                    <p class="mb-0"><a class="text-primary" href="#" target="_blank"></a>. <a href="#" target="_blank"></a>.</p>
                 </div>
             </div>
         </div>
@@ -433,8 +504,30 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+        <!-- Template Javascript -->
+        <script>
+        // Load devices into cart modal for price page
+        document.addEventListener('DOMContentLoaded', function(){
+            const cartItems = document.getElementById('cart-items');
+            if(cartItems){
+                fetch('data/devices.json').then(r=>r.json()).then(devices=>{
+                    devices.forEach(d=>{
+                        const col = document.createElement('div'); col.className = 'col-md-6';
+                        col.innerHTML = `<div class="d-flex bg-white rounded p-2 h-100">
+                            <img src="${d.image}" alt="${d.name}" style="width:120px; height:80px; object-fit:cover;" class="me-3 rounded">
+                            <div>
+                              <h6 class="mb-1">${d.name}</h6>
+                              <p class="small mb-1">${d.desc}</p>
+                              <p class="mb-0 fw-bold">${d.priceDisplay}</p>
+                            </div>
+                          </div>`;
+                        cartItems.appendChild(col);
+                    });
+                }).catch(()=>{ cartItems.innerHTML = '<p class="text-danger">Could not load devices.</p>' });
+            }
+        });
+        </script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>

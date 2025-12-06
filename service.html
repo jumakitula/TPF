@@ -41,7 +41,7 @@
                     <div class="d-inline-flex align-items-center">
                         <a class="text-decoration-none text-body pe-3" href="#"><i class="bi bi-telephone me-2"></i>+255 22 123 4567</a>
                         <span class="text-body">|</span>
-                        <a class="text-decoration-none text-body px-3" href="mailto:physiotherapy@police.go.tz"><i class="bi bi-envelope me-2"></i>physiotherapy@police.go.tz</a>
+                        <a class="text-decoration-none text-body px-3" href="mailto:pmr@police.go.tz"><i class="bi bi-envelope me-2"></i>pmr@police.go.tz</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-end">
@@ -76,7 +76,7 @@
                 <a href="index.html" class="navbar-brand d-flex align-items-center">
                     <img src="img/tpf-emblem.png" alt="TPF Emblem" style="height:48px; margin-right:10px" onerror="this.onerror=null;this.src='img/tpf-emblem.svg'"> 
                     <div>
-                        <h1 class="m-0 text-uppercase text-primary" style="font-size:18px; line-height:1">Tanzania Police Force<br><small style="font-size:12px; color:#0d6efd;">Physiotherapy Department</small></h1>
+                        <h1 class="m-0 text-uppercase text-primary" style="font-size:18px; line-height:1">Tanzania Police Force<br><small style="font-size:12px; color:#0d6efd;">Physical Medicine and Rehabilitation</small></h1>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -89,6 +89,9 @@
                         <a href="team.html" class="nav-item nav-link">Our Team</a>
                         <a href="blog.html" class="nav-item nav-link">News & Updates</a>
                         <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-outline-primary ms-3" id="cartBtn" data-bs-toggle="modal" data-bs-target="#cartModal" aria-label="View devices for sale"><i class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
             </nav>
@@ -103,7 +106,7 @@
             <div class="text-center mx-auto mb-5" style="max-width: 700px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Specialties</h5>
                 <h1 class="display-4">Clinical Expertise for the Tanzania Police Force</h1>
-                <p class="lead">Focused physiotherapy services tailored to the needs of police personnel: injury recovery, occupational health, and readiness for duty.</p>
+                <p class="lead">Focused Physical Medicine and Rehabilitation services tailored to the needs of police personnel: injury recovery, occupational health, and readiness for duty.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
@@ -113,7 +116,7 @@
                         </div>
                         <h4 class="mb-2">Sports & Training Injury Rehabilitation</h4>
                         <p class="small">Assessment and individualized rehab for training-related injuries and conditioning to prevent recurrence.</p>
-                        <img class="img-fluid mb-3" src="https://picsum.photos/seed/tpf-specialty-1/800/600" alt="Musculoskeletal Rehabilitation">
+                        <img class="img-fluid mb-3" src="img/Sports & Training Injury Rehabilitation.jpeg" alt="Musculoskeletal Rehabilitation">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -123,7 +126,7 @@
                         </div>
                         <h4 class="mb-2">Orthopedic & Post-Surgical Rehabilitation</h4>
                         <p class="small">Structured post-op recovery programs and progressive loading to restore function.</p>
-                        <img class="img-fluid mb-3" src="https://picsum.photos/seed/tpf-specialty-2/800/600" alt="Neurological Rehabilitation">
+                        <img class="img-fluid mb-3" src="img/Orthopedic & Post-Surgical Rehabilitation.jpeg" alt="Neurological Rehabilitation">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -133,7 +136,7 @@
                         </div>
                         <h4 class="mb-2">Occupational Health & Ergonomics</h4>
                         <p class="small">Workplace assessments and ergonomic adjustments to reduce duty-related strain and injuries.</p>
-                        <img class="img-fluid mb-3" src="https://picsum.photos/seed/tpf-specialty-3/800/600" alt="Sports Medicine & Tactical Injuries">
+                        <img class="img-fluid mb-3" src="img/Occupational Health & Ergonomics.jpeg" alt="Sports Medicine & Tactical Injuries">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -143,7 +146,7 @@
                         </div>
                         <h4 class="mb-2">Chronic Pain Management</h4>
                         <p class="small">Multimodal approaches to manage chronic musculoskeletal pain among officers.</p>
-                        <img class="img-fluid mb-3" src="https://picsum.photos/seed/tpf-specialty-4/800/600" alt="Pediatric & Geriatric Physiotherapy">
+                        <img class="img-fluid mb-3" src="img/chronic pain management.jpeg" alt="Pediatric & Geriatric Physiotherapy">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -153,7 +156,7 @@
                         </div>
                         <h4 class="mb-2">Fitness-for-Duty Assessments</h4>
                         <p class="small">Objective testing and return-to-duty protocols to ensure readiness for operational tasks.</p>
-                        <img class="img-fluid mb-3" src="https://picsum.photos/seed/tpf-specialty-5/800/600" alt="Occupational & Ergonomic Rehabilitation">
+                        <img class="img-fluid mb-3" src="img/Fitness-for-Duty Assessments.jpeg" alt="Occupational & Ergonomic Rehabilitation">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -163,13 +166,32 @@
                         </div>
                         <h4 class="mb-2">Manual Therapy & Electrotherapy Modalities</h4>
                         <p class="small">Evidence-based manual techniques and adjunct modalities to enhance recovery.</p>
-                        <img class="img-fluid mb-3" src="https://picsum.photos/seed/tpf-specialty-6/800/600" alt="Post-Operative & Pain Management">
+                        <img class="img-fluid mb-3" src="img/Manual Therapy and Electrotherapy Modalities.jpeg" alt="Post-Operative & Pain Management">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Services End -->
+
+        <!-- Cart Modal -->
+        <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Devices & Equipment For Sale</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="cart-items" class="row g-3"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="price.html" class="btn btn-primary">View All Programs & Devices</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     <!-- Appointment Start -->
@@ -181,7 +203,7 @@
                         <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Appointment</h5>
                         <h1 class="display-4">Make An Appointment For Your Family</h1>
                     </div>
-                    <p class="text-white mb-5">Our physiotherapy clinics provide evidence-based assessment and individualized rehabilitation for police personnel, including post-operative care, sports injury rehabilitation, chronic pain management, and fitness-for-duty assessments. We work closely with operational units to support safe return-to-duty.</p>
+                    <p class="text-white mb-5">Our Physical medicine and rehabilitation clinics provide evidence-based assessment and individualized rehabilitation for police personnel, including post-operative care, sports injury rehabilitation, chronic pain management, and fitness-for-duty assessments. We work closely with operational units to support safe return-to-duty.</p>
                     <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="#!">Find Doctor</a>
                     <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="#!">Read More</a>
                 </div>
@@ -306,9 +328,9 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">
                         Get In Touch</h4>
-                    <p class="mb-4">Police Headquarters, Dar es Salaam — Physiotherapy Department. For appointments and regional coordination, email <a class="text-light" href="mailto:physiotherapy@police.go.tz">physiotherapy@police.go.tz</a> or call +255 22 123 4567.</p>
+                    <p class="mb-4">Police Headquarters, Dar es Salaam — Physical medicine and rehabilitation Department. For appointments and regional coordination, email <a class="text-light" href="mailto:pmr@police.go.tz">pmr@police.go.tz</a> or call +255 22 123 4567.</p>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Police Headquarters, Dar es Salaam</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>physiotherapy@police.go.tz</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>pmr@police.go.tz</p>
                     <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3"></i>+255 22 123 4567</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -367,9 +389,9 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-primary" href="https://htmlcodex.com"
-                            target="_blank">HTML Codex</a>. Distributed by <a href="https://themewagon.com"
-                            target="_blank">ThemeWagon</a>.</p>
+                    <p class="mb-0"> <a class="text-primary" href="#"
+                            target="_blank"></a>.  <a href="#"
+                            target="_blank"></a>.</p>
                 </div>
             </div>
         </div>
@@ -392,6 +414,27 @@
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const cartItems = document.getElementById('cart-items');
+        if(cartItems){
+            fetch('data/devices.json').then(r=>r.json()).then(devices=>{
+                devices.forEach(d=>{
+                    const col = document.createElement('div'); col.className = 'col-md-6';
+                    col.innerHTML = `<div class="d-flex bg-white rounded p-2 h-100">
+                        <img src="${d.image}" alt="${d.name}" style="width:120px; height:80px; object-fit:cover;" class="me-3 rounded">
+                        <div>
+                          <h6 class="mb-1">${d.name}</h6>
+                          <p class="small mb-1">${d.desc}</p>
+                          <p class="mb-0 fw-bold">${d.priceDisplay}</p>
+                        </div>
+                      </div>`;
+                    cartItems.appendChild(col);
+                });
+            }).catch(()=>{ cartItems.innerHTML = '<p class="text-danger">Could not load devices.</p>' });
+        }
+    });
+    </script>
     <script src="js/main.js"></script>
 </body>
 

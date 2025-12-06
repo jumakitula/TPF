@@ -1,0 +1,86 @@
+[
+  {
+    "id": "post1",
+    "title": "New PMR Clinic Opens in Dar es Salaam HQ",
+    "image": "img/hero.jpg",
+    "date": "March 15, 2025",
+    "category": "department-updates",
+    "excerpt": "The Physical Medicine and Rehabilitation Department has opened a new clinic at Police HQ with advanced rehabilitation equipment.",
+    "body": "<p>The Physical Medicine and Rehabilitation Department has officially opened a new state-of-the-art clinic at Police Headquarters in Dar es Salaam. The facility features advanced rehabilitation equipment, private consultation rooms, and a dedicated space for functional capacity evaluations.</p><p>The clinic will serve as the central hub for officer rehabilitation services and staff training. Regional referrals can now be coordinated through this central facility, improving access and standardising care across commands.</p><h4 class=\"mt-4\">Services & Capabilities</h4><ul><li>Comprehensive return-to-duty assessments and job-specific functional testing</li><li>On-site imaging review and multidisciplinary case discussions</li><li>Individualised rehabilitation programmes and progressive duty planning</li><li>Staff training and capacity-building workshops for regional clinicians</li></ul><p class=\"mt-3\">The clinic also includes a dedicated functional testing area where officers can be observed performing simulated duties under controlled conditions. This combination of clinical assessment and operational simulation will help ensure safe, evidence-based clearance decisions.</p>",
+    "author": "Dr. Joseph Mwanga",
+    "views": "892",
+    "comments": "14"
+  },
+  {
+    "id": "post2",
+    "title": "Vehicle Ergonomics for Patrol Officers",
+    "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=1200&h=600&fit=crop",
+    "date": "February 20, 2025",
+    "category": "injury-prevention",
+    "excerpt": "Learn how proper vehicle setup reduces musculoskeletal strain during long patrol shifts.",
+    "body": "<p>Proper vehicle ergonomics reduce fatigue and musculoskeletal injury risks for patrol officers who spend long hours driving. Small adjustments to seating and posture can have a significant impact on comfort and performance.</p><h4 class=\"mt-4\">Practical Seat Setup</h4><ol><li>Adjust seat height so hips are level with knees and feet reach the pedals comfortably.</li><li>Set lumbar support to maintain the natural curve of the lower back.</li><li>Position the steering wheel so shoulders remain relaxed with elbows slightly bent.</li></ol><h4 class=\"mt-4\">Quick In-Shift Exercises</h4><p>Perform simple shoulder rolls, neck stretches, and glute squeezes during brief stops to maintain circulation and reduce stiffness. We recommend a 2–3 minute movement break every 60–90 minutes of driving.</p>",
+    "author": "Physio Dept.",
+    "views": "1043",
+    "comments": "21"
+  },
+  {
+    "id": "post3",
+    "title": "Managing Lower Back Pain: Officer's Guide",
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&h=600&fit=crop",
+    "date": "January 28, 2025",
+    "category": "rehabilitation",
+    "excerpt": "A comprehensive guide with assessment, exercise progression, and return-to-duty strategies for lower back pain.",
+    "body": "<p>Lower back pain is a leading cause of reduced duty days among law enforcement personnel. Our approach focuses on early assessment, targeted intervention, and graded exposure to operational tasks.</p><h4 class=\"mt-4\">Assessment and Early Management</h4><p>Initial evaluation includes a clinical history, red-flag screening, and basic mobility testing. Early active rehabilitation — including tailored exercise, posture correction, and manual therapy when indicated — is associated with faster return to function.</p>",
+    "author": "Dr. Joseph Mwanga",
+    "views": "1567",
+    "comments": "32"
+  },
+  {
+    "id": "post4",
+    "title": "Stress Management for High-Stress Situations",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=600&fit=crop",
+    "date": "April 08, 2025",
+    "category": "health-wellness",
+    "excerpt": "Practical techniques for managing acute stress and building long-term resilience for officers.",
+    "body": "<p>Police officers frequently face acute stressors that can impair decision-making and recovery. Practical techniques to manage acute stress and build resilience are essential for both safety and wellbeing.</p><h4 class=\"mt-4\">Acute Incident Techniques</h4><ul><li><strong>Box breathing:</strong> 4 seconds inhale, 4 seconds hold, 4 seconds exhale, 4 seconds hold — repeat for 1–2 minutes.</li><li><strong>Grounding cues:</strong> Focus on five observable items, four tactile sensations, three audible sounds to reorient after a high-adrenaline event.</li></ul>",
+    "author": "Dr. Sarah Kimambo",
+    "views": "724",
+    "comments": "18"
+  },
+  {
+    "id": "post5",
+    "title": "Daily Stretching Routine for Police Officers",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&h=600&fit=crop",
+    "date": "March 02, 2025",
+    "category": "injury-prevention",
+    "excerpt": "A short 10-minute daily routine targeting key muscle groups affected by duty equipment and sitting.",
+    "body": "<p>A short daily stretching routine helps maintain mobility and reduce injury risk. This 10-minute sequence targets key muscle groups affected by duty equipment and prolonged sitting.</p>",
+    "author": "Physio Dept.",
+    "views": "935",
+    "comments": "12"
+  },
+  {
+    "id": "post6",
+    "title": "Nutrition Strategies for Shift Workers",
+    "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=1200&h=600&fit=crop",
+    "date": "May 12, 2025",
+    "category": "health-wellness",
+    "excerpt": "Tips for maintaining steady energy, adequate protein, and hydration during irregular shifts.",
+    "body": "<p>Maintaining nutrition during irregular shifts can be challenging. Focus on steady energy, adequate protein for recovery, and hydration to support cognitive function and endurance.</p>",
+    "author": "Dr. Joseph Mwanga",
+    "views": "648",
+    "comments": "9"
+  },
+  {
+    "id": "post7",
+    "title": "Mobile Rehabilitation Unit Launches Regional Tour",
+    "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=1200&h=600&fit=crop",
+    "date": "June 01, 2025",
+    "category": "department-updates",
+    "excerpt": "The mobile rehabilitation unit will visit regional commands bringing assessment and treatment services to remote areas.",
+    "body": "<p>Our new mobile rehabilitation unit will visit regional commands starting next month, bringing specialised assessment and treatment services directly to officers in remote areas. The service aims to reduce travel burden and speed up access to care.</p>",
+    "author": "PMR Outreach Team",
+    "views": "430",
+    "comments": "6"
+  }
+]
